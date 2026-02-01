@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<i miss youuuu>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,25 +9,26 @@
       margin: 0;
       height: 100vh;
       background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-family: Arial, sans-serif;
       overflow: hidden;
     }
 
-    .container {
-      position: relative;
-      z-index: 2;
+    .card {
       text-align: center;
-      margin-top: 15vh;
+      color: white;
     }
 
     h1 {
-      color: white;
       margin-bottom: 40px;
     }
 
     .buttons {
-      position: relative;
-      height: 120px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
     }
 
     button {
@@ -41,13 +42,11 @@
     #yes {
       background: #28a745;
       color: white;
-      margin-right: 20px;
     }
 
     #no {
       background: #dc3545;
       color: white;
-      position: absolute;
     }
 
     #celebration {
@@ -65,7 +64,7 @@
 
 <body>
 
-  <div class="container" id="question">
+  <div class="card" id="question">
     <h1>Maryam ❤️<br>Will you be my Valentine?</h1>
 
     <div class="buttons">
@@ -74,7 +73,7 @@
     </div>
   </div>
 
-  <div class="container" id="celebration">
+  <div id="celebration">
     <h1>SHE SAID YES!!! 🎉💖</h1>
     <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif">
   </div>
